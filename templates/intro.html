@@ -11,13 +11,20 @@
 <!--  nav-->
         {% include "nav.html" %}
 <!--        <h1 class="text-center">{{company_name}}</h1>-->
-         <div class="container text-center border-bottom border-primary border-2 pb-2">
-           <img src="http://127.0.0.1:5000/static/img.jpg" width="100%" height="400px">
-         </div>
 
-        <h1 class="text-center">About beyni</h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h2 class="text-center">Job Openings</h2>
+           <img class="shadow-sm" src="http://127.0.0.1:5000/static/img.jpg " width="100%" height="400px">
+
+
+        <h1 class="text-center mt-2 mb-4">beyni Carrers</h1>
+          <div class="row">
+            <div class="container text-center border-bottom border-primary border-2 pb-2 shadow-sm col-6">
+              <p class="text-wrap fs-4 mt-5"> <b>b</b>eyni is an online job providing platform that connects employers with qualified candidates. The platform offers a variety of features to help employers find the best possible candidates, including a job board, resume database, and interview scheduling tool. Beyni also provides a number of resources to help candidates prepare for their job search, such as interview tips and resume writing advice.</p>
+            </div>
+            <div class="col-6" >
+              <img class="shadow-sm border-bottom border-primary border-2 pb-2  " src="http://127.0.0.1:5000/static/emp.jpg" width="100%" height="500px">
+            </div>
+          </div>
+        <h2 class="text-center mt-5">Job Openings</h2>
 
         <div>
           {% for x in jobs %}
@@ -34,14 +41,6 @@
   <div class="container pt-4">
     <!-- Section: Social media -->
     <section class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
 
       <!-- Twitter -->
       <a
@@ -50,15 +49,6 @@
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#!"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-google"></i
       ></a>
 
       <!-- Instagram -->
@@ -90,14 +80,11 @@
     <!-- Section: Social media -->
   </div>
   <!-- Grid container -->
-           <div class="container">
-               <button class="btn btn-primary" >Contact Us</button>
-           </div>
 
   <!-- Copyright -->
   <div class="text-center text-dark p-3 mt-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2023 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">beyni.com</a>
   </div>
   <!-- Copyright -->
 </footer>

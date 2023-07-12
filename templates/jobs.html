@@ -1,5 +1,7 @@
 
- <div class="container text-center border-bottom border-success border-2 ">
+
+
+<div class="container text-center border-bottom border-success border-2 shadow-sm">
   <div class="row align-items-start">
     <div class="col">
      <h4 class="mt-3 ">{{x['title']}}</h4>
@@ -9,7 +11,7 @@
      {% endif %}
     </div>
     <div class="col">
-     <button type="button" class="btn btn-outline-primary mt-4">Apply</button>
+     <button type="button" class="btn btn-outline-primary mt-4" onclick="window.location.href='mailto:nishithdubey2309@gmail.com?subject=An%20application%20for%20{{x['title']}}&body=My%20name%3A%20%3CEnter%20your%20name%20here%3E%0D%0AMy%20LinkedIn%20profile%3A%20%3Cattach%20your%20linkedIn%20here%3E%0D%0AMy%20Resume%3A%20%3CProvide%20your%20resume%20link%20here%3E'">Apply</button>
     </div>
   </div>
 </div>
